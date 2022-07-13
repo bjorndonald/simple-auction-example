@@ -1,0 +1,11 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+.id
+.secret
+info.js
+#Hardhat files
+cache
+
