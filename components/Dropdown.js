@@ -26,6 +26,7 @@ function Dropdown (props) {
       >
         {props.list.map((x, i) => (
           <a
+            key={i}
             onClick={() => props.setValue(x)}
             className='dropdown-item'
             href='#'
