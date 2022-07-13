@@ -5,7 +5,7 @@ import { ballotAddress } from '../info'
 import Ballot from '../artifacts/contracts/Ballot.sol/Ballot.json'
 import { ethers } from 'ethers'
 import web3 from 'web3'
-import CandidateList from '../components/CandidateList'
+import BidsList from '../components/BidsList'
 import { useData } from '../contexts/DataContext'
 import { formatStringToBytes32 } from '../utilities/functions'
 
@@ -33,7 +33,7 @@ export default function AddCandidate () {
   if (loading) return <h1>Loading ...</h1>
   return (
     <div id='add-candidate'>
-      <CandidateList />
+      <BidsList />
 
       <form>
         <div className='form-group'>

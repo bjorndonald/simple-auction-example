@@ -5,7 +5,7 @@ coverage.json
 typechain
 .id
 .secret
-info.js
+
 #Hardhat files
 cache
 
